@@ -1,0 +1,94 @@
+body{
+  background: lightsalmon;   
+  font-family: "Roboto", sans-serif;
+}
+
+.form{
+  background: white;
+  max-width: 360px;
+  margin: 80px auto 100px;
+  padding: 45px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.form input{
+  font-family: "Roboto", sans-serif;
+  background: #f2f2f2;
+  border: none;
+  padding: 13px;
+  font-size: 14px;
+  margin-bottom: 14px;
+}
+
+#fname{
+  width: 92%;
+}
+
+#email{
+  width: 92%;
+}
+
+#mnumber{
+  width: 32%;
+  margin-right: 5px;
+}
+
+#address{
+  width: 50%;
+}
+
+#city{
+  width: 42%;
+  margin-right: 5px;
+}
+
+#state{
+  width: 40%;
+}
+
+#pincode{
+  width: 32%;
+  margin-right: 5px;
+}
+
+#country{
+  width: 50%;
+  
+}
+
+#cname{
+  width: 42%;
+  margin-right: 5px;
+}
+
+#occupation{
+  width: 40%;
+}
+
+.form button{
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  background: #4CAF50;
+  width: 100%;
+  border: none;
+  padding: 15px;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+.form button:hover{
+  background: #43A047;
+}
+
+.message{
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 14px;
+}
+
+.message a{
+  color: blue;
+  text-decoration: none;
+}
